@@ -1,0 +1,83 @@
+:root{
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
+}
+
+
+/*Fuente personalizada*/
+
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-regular.otf);
+  font-style: normal ;
+  font-weight: 400;
+}
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-italic.otf);
+  font-style: italic ;
+  font-weight: 400;
+}
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-bold.otf);
+  font-style: normal ;
+  font-weight: bold;
+}
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-bold-italic.otf);
+  font-style: italic ;
+  font-weight: bold;
+}
+
+html{
+font-size: 16px;
+}
+
+
+body{
+  color: var(--gray30);
+  font-size: 15px;
+  font-family: charter;
+}
+
+a{
+  color: var(--gray30);
+}
+
+h1{
+  font-size: 60px;
+  /*font-size: 3.75em*/
+}
+
+header{
+  font-size: 14px;
+  color: var(--gray10);
+  /* --gray10: red; */
+}
+
+header a{
+  color:var(--gray10);
+  text-decoration: none;
+}
+
+header a:hover{
+  color: var(--gray30);
+}
+
+nav details summary{
+  font-weight: bold;
+}
+
+h2{
+  font-size: 32px;
+  /* font-size: 2em; */
+}
+
+ h3{
+   font-size:24px;
+   /* font-size: 1.5em */
+
+ }
