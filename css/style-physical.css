@@ -56,9 +56,9 @@ h1{
   /*font-size: 3.75em*/
 }
 
-h1 ~ p{
+/* h1 ~ p{
   margin-bottom: 64px;
-}
+} */
 
 header{
   font-size: 14px;
@@ -101,6 +101,11 @@ h2{
 
  pre{
   background: #FEC62E;
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  color: #000;
+  font-size: 16px;
 }
 
 .section-content{
@@ -118,10 +123,11 @@ h2{
 
 .section-content h3{
   counter-increment: titleList;
+  padding-bottom: 4px;
 }
 
 .section-content h3::before{
-  content: counter(titleList);
+  content: counter(titleList)'. ' ;
 }
 
 .section-content h3::after{
@@ -154,4 +160,43 @@ hr{
 
 blockquote{
   margin: 32px  0;
+  padding-left: 16px;
+  font-size: 24px;
+  border-left: 4px solid var(--gray30);
+  line-height: 32px;
 }
+
+blockquote span{
+ color:var(--gray10);
+}
+
+blockquote span::before{
+  content: "-";
+}
+
+.price{
+background: red;
+}
+
+.contact{
+  background: blue;
+}
+
+.conten-price, .conten-contact{
+  padding: 30px 10px;
+}
+
+.main{
+
+}
+
+.wrapper{
+  width: 902px;
+  margin: auto;
+}
+
+.main-content{
+  background: white;
+  padding: 20px;
+}
+
