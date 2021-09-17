@@ -58,6 +58,7 @@ h1{
   margin-bottom: 16px;
   /*font-size: 3.75em*/
   font-weight: normal;
+  position: relative;
 }
 
 /* h1 ~ p{
@@ -69,10 +70,13 @@ header{
   color: var(--gray10);
   /* --gray10: red; */
   position: absolute;
-  left: 0;
+  /* left: 0;
   top: 0;
-  width: 188px;
   left: -232px;
+  /* background: red; */
+  z-index: 1;
+  width: 188px;
+  left: -202px;
   top: 64px;
 }
 
@@ -111,9 +115,11 @@ h2{
    margin-top: 16px;
    font-weight: normal;
    margin-bottom: 24px;
-  /* position: sticky;
+  position: sticky;
+  /* position: relative; */
   top: 0;
-  background: #fff; */
+  background: #fff;
+
 
 
  }
@@ -143,9 +149,9 @@ h2{
   counter-increment: titleList;
   padding-bottom: 8px;
 
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  background: #fff;
+  background: #fff; */
 
 }
 
@@ -159,7 +165,7 @@ h2{
   height: 4px;
   background:var(--gray30);
   display: inline-block;
-  position: absolute;
+   position: absolute;
   left: 0;
   bottom: 0;
 }
@@ -206,6 +212,9 @@ blockquote span::before{
 
 }
 
+.header-content{
+  position: relative;
+}
 .wrapper{
   width: 902px;
   margin: auto;
@@ -216,9 +225,6 @@ blockquote span::before{
   /* padding: 20px; */
 }
 
-.header-content{
-  position: relative;
-}
 
 .header{
   position: sticky;
