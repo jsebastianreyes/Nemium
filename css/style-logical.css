@@ -63,16 +63,23 @@ header {
 
 header .menu-ppal li{
   list-style: none;
-  padding-inline: 8px;
-  padding-block:8px;
-  border-radius: 4px;
-  margin-block-end: 4px;
+
+
 
 }
 
-#pagina-actual{
+header .menu-ppal li a{
+  padding-inline-start: 8px;
+  padding-inline-end: 80px;
+  padding-block:8px;
+}
+
+#pagina-actual a{
 background: #000;
 color: #fff;
+
+  border-radius: 4px;
+  margin-block-end: 4px;
 }
 
 #pagina-actual a{
