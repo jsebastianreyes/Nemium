@@ -72,6 +72,10 @@
   color: #fff;
 }
 
+.nemium-a .footer-content{
+  padding-inline: 10px;
+}
+
 .nemium-a .form{
   font-size: 0;
 }
@@ -81,8 +85,7 @@
   border-radius: 90px;
   border:1px solid var(--color-terciario);
   display: inline-block;
-  inline-size: 280px;
-  margin: 0;
+  margin-block-end: 10px;
 }
 
 .nemium-a .form input::-webkit-input-placeholder {
@@ -91,19 +94,17 @@
 
 .nemium-a .form input[type="submit"]{
   background: #000;
-  inline-size: 120px;
   color: #fff;
   font-weight: normal;
-  position: relative;
-  inset-inline-start: -55px;
+  position: absolute;
+  right: 0;
   border:1px solid var(--color-terciario);
 
+  inline-size: 150px;
 }
-
 .nemium-a .form input[type="text"]{
   margin-inline-end: 20px;
 }
-
 .nemium-a .form input[type="submit"]:hover{
   background: #000;
   color: #fff;
@@ -111,6 +112,12 @@
 
 .nemium-a .form input:focus{
   outline:0;
+}
+
+
+.nemium-a .form{
+  position: relative;
+  margin-block-end: 15px;
 }
 
 .nemium-a .title-menu{
@@ -124,8 +131,20 @@
 
 .nemium-a .hidden-number h3{
   border:0;
+  font-weight: normal;
 }
 
 .nemium-a .section-content:last-child h3{
   border: 0;
+}
+
+@media screen and (min-width: 1366px) {
+
+  .nemium-a .form{
+    inline-size: 700px;
+  }
+
+  .nemium-a .form input{
+    inline-size: 48%;
+  }
 }
