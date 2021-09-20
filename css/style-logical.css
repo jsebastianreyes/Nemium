@@ -148,7 +148,7 @@ hr {
 
 pre {
   background: var(--color-terciario);
-  padding: 40px;
+  padding: 16px;
   overflow: auto;
    border-radius: 8px;
    margin-block-end:40px ;
@@ -218,10 +218,10 @@ blockquote {
   line-height: 32px;
   font-size: 24px;
   /* padding: 24px; */
-  padding-inline-end: 24px;
-  padding-inline-start: 24px;
-  padding-block-start: 24px;
-  padding-block-end: 24px;
+  padding-inline-end: 8px;
+  padding-inline-start: 8px;
+  padding-block-start: 8px;
+  padding-block-end: 8px;
 }
 blockquote p {
   color: var(--color-ppal);
@@ -413,4 +413,18 @@ details{
   header .menu-ppal{
     margin-block-end: 80px;
   }
+
+  pre{
+    padding: 40px;
+  }
+
+  blockquote {
+
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+  }
+
+
 }
