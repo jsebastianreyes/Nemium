@@ -286,15 +286,11 @@ blockquote p {
   inline-size: 15px;
   block-size: 15px;
   border-radius: 50%;
-  background: rgba(66, 66, 66, 0.2);
-
 }
 
 .slider-bullet:first-of-type{
   background: white;
 }
-
-
 
 .form input {
   inline-size: 100%;
@@ -386,6 +382,9 @@ details{
   margin-block-end: 40px;
 }
 
+.section-content ul li{
+  padding-block-end: 16px;
+}
 
 @media screen and (min-width: 1366px) {
   .title-menu{
