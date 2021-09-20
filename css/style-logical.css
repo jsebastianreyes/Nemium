@@ -285,9 +285,16 @@ blockquote p {
   display: inline-block;
   inline-size: 15px;
   block-size: 15px;
-  background: white;
   border-radius: 50%;
+  background: rgba(66, 66, 66, 0.2);
+
 }
+
+.slider-bullet:first-of-type{
+  background: white;
+}
+
+
 
 .form input {
   inline-size: 100%;

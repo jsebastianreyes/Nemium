@@ -114,12 +114,24 @@ color: var(--color-ppal);
   margin-block-end: 40px;
 }
 
+
+.nemium-e .slider-bullet{
+  background: rgba(66, 66, 66, 0.2);
+}
+
+.nemium-e .slider-bullet:first-of-type{
+
+   background: #fff;
+}
+
+
 @media screen and (min-width: 1366px){
   header{
     margin-block-start: 0;
   }
 
     .header {
-    inset-block-start: 0;
+    position: sticky;
+    inset-block-start: 0
     }
   }

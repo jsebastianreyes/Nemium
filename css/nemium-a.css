@@ -61,7 +61,11 @@
 }
 
 .nemium-a .slider-bullet{
-  background: var(--color-txt);
+  background: rgba(66, 66, 66, 0.2);
+}
+
+.nemium-a .slider-bullet:first-of-type{
+  background: #424242;
 }
 
 .nemium-a .txt-suscribete a{

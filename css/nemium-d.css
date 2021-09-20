@@ -13,6 +13,8 @@
   color: var(--bodybg);
 }
 
+
+
 .nemium-d .section-content:first-of-type p b{
 color: #5551ff;
 font-weight: normal;
@@ -99,8 +101,18 @@ font-weight: normal;
   color: var(--color-txt)
 }
 
+.nemium-d .slider-bullet{
+  background: rgba(142, 45, 226, 0.5);
+}
+
+.nemium-d .slider-bullet:first-of-type{
+
+   background: #5551FF;
+}
+
 .nemium-d .form input[type="submit"]{
-  background: #000;
+  background: #5551FF;
+
   color: #fff;
   font-weight: normal;
   position: absolute;
