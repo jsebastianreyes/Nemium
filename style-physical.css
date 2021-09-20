@@ -1,0 +1,233 @@
+:root{
+  --gray30: #212121;
+  --gray20: #212429;
+  --gray10: #616161;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+/*Fuente personalizada*/
+
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-regular.otf);
+  font-style: normal ;
+  font-weight: 400;
+}
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-italic.otf);
+  font-style: italic ;
+  font-weight: 400;
+}
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-bold.otf);
+  font-style: normal ;
+  font-weight: bold;
+}
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-bold-italic.otf);
+  font-style: italic ;
+  font-weight: bold;
+}
+
+html{
+font-size: 16px;
+}
+
+
+body{
+  color: var(--gray30);
+  font-size: 15px;
+  /* font-family: charter; */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+a{
+  color: var(--gray30);
+}
+
+h1{
+  font-size: 60px;
+  margin-top: 64px;
+  margin-bottom: 16px;
+  /*font-size: 3.75em*/
+  font-weight: normal;
+  position: relative;
+}
+
+/* h1 ~ p{
+  margin-bottom: 64px;
+} */
+
+header{
+  font-size: 14px;
+  color: var(--gray10);
+  /* --gray10: red; */
+  position: absolute;
+  /* left: 0;
+  top: 0;
+  left: -232px;
+  /* background: red; */
+  z-index: 1;
+  width: 188px;
+  left: -202px;
+  top: 64px;
+}
+
+header ol li{
+  margin-bottom: 16px;
+}
+
+header a{
+  color:var(--gray10);
+  text-decoration: none;
+}
+
+header a:hover{
+  color: var(--gray30);
+}
+
+nav details summary{
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.section-content:first-of-type{
+margin: 0;
+}
+
+h2{
+  font-size: 32px;
+  margin: 64px 0 40px;
+  font-weight: normal;
+  /* font-size: 2em; */
+}
+
+ h3{
+   font-size:24px;
+   /* font-size: 1.5em */
+   margin-top: 16px;
+   font-weight: normal;
+   margin-bottom: 24px;
+  position: sticky;
+  /* position: relative; */
+  top: 0;
+  background: #fff;
+
+
+
+ }
+
+ pre{
+  background: #FEC62E;
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  color: #000;
+  font-size: 16px;
+}
+
+
+.hero{
+  height: 350px;
+  background-image:linear-gradient(to top,rgba(255,255,255, .3), transparent  ), url(../images/patron-1.jpg);
+}
+
+.section-content{
+  counter-reset: titleList;
+  margin-top: 164px;
+  position: relative;
+}
+
+.section-content h3{
+  counter-increment: titleList;
+  padding-bottom: 8px;
+
+  /* position: sticky;
+  top: 0;
+  background: #fff; */
+
+}
+
+.section-content h3::before{
+  content: counter(titleList)'. ' ;
+}
+
+.section-content h3::after{
+  content: "";
+  width: 80px;
+  height: 4px;
+  background:var(--gray30);
+  display: inline-block;
+   position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.section-content + hr{
+  display: none;
+}
+
+.section-content img{
+  margin-top: 40px;
+}
+
+.section-content ul li{
+ margin-bottom: 16px;
+}
+
+.section-content ol li{
+line-height: 24px;
+}
+
+hr{
+   margin: 64px 0;
+
+}
+
+blockquote{
+  margin: 32px  0;
+  padding-left: 16px;
+  font-size: 24px;
+  border-left: 4px solid var(--gray30);
+  line-height: 32px;
+}
+
+blockquote span{
+ color:var(--gray10);
+}
+
+blockquote span::before{
+  content: "-";
+}
+
+
+.main{
+
+}
+
+.header-content{
+  position: relative;
+}
+.wrapper{
+  width: 902px;
+  margin: auto;
+}
+
+.main-content{
+  background: white;
+  /* padding: 20px; */
+}
+
+
+.header{
+  position: sticky;
+  top: 0;
+}
+
