@@ -1,0 +1,205 @@
+.nemium-d:root {
+  --color-ppal: #212121;
+  --color-secundario: #212429;
+  --color-terciario: #616161;
+  --color-txt: #424242;
+  --bodybg: #fff;
+  --footerbg: #000;
+  --wrappper: 902px;
+}
+
+
+.nemium-d footer p{
+  color: var(--bodybg);
+}
+
+.nemium-d .section-content:first-of-type p b{
+color: #5551ff;
+font-weight: normal;
+}
+
+.nemium-d .hero{
+  background-attachment: fixed;
+  background-image:linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url(../images/patron-2.png);
+}
+
+.nemium-d body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.nemium-d h1{
+  font-weight: 700;
+  text-align: center;
+}
+
+.nemium-d h1 + p{
+  text-align: center;
+}
+
+.nemium-d h3{
+  font-weight: 400;
+}
+
+.nemium-d .section-content.centrar-elementos{
+  text-align: center;
+}
+
+.nemium-d .section-content.centrar-elementos{
+  text-align: center;
+}
+
+.nemium-d .section-content:first-of-type img{
+  margin: auto;
+}
+
+.nemium-d blockquote{
+  background: var(--bodybg);
+  text-align: start;
+  border-inline-start: 4px solid #5551FF;
+  padding-block: 0;
+  border-radius: 0;
+}
+
+.nemium-d pre{
+  background: var(--bodybg);
+  text-align: start;
+  font-size: 16px;
+  border: 8px solid #5551FF;
+  border-radius: 8px;
+  box-shadow: -10px 10px 0px #ABAAF6;
+}
+
+.nemium-d blockquote p{
+  color: #000;
+}
+
+.nemium-d blockquote span{
+
+}
+
+.nemium-d blockquote span::before{
+  content: "-";
+}
+
+
+
+.nemium-d .form{
+  font-size: 0;
+}
+
+.nemium-d .form input{
+  background: #fff;
+  border-radius: 90px;
+  border:1px solid var(--color-terciario);
+  display: inline-block;
+  margin-block-end: 10px;
+}
+
+.nemium-d .form input::-webkit-input-placeholder {
+  color: var(--color-txt)
+}
+
+.nemium-d .form input[type="submit"]{
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  border:1px solid var(--color-terciario);
+
+  inline-size: 150px;
+}
+.nemium-d .form input[type="text"]{
+  margin-inline-end: 20px;
+}
+.nemium-d .form input[type="submit"]:hover{
+  background: #000;
+  color: #fff;
+}
+
+.nemium-d .form input:focus{
+  outline:0;
+}
+
+
+.nemium-d .form{
+  position: relative;
+
+}
+
+.nemium-d .title-menu{
+  font-weight: normal;
+  color: #616161;
+}
+
+.nemium-d .menu-ppal a{
+  color:var(--color-terciario);
+}
+
+.nemium-d header details a{
+  color: #000;
+  position: relative;
+}
+
+.nemium-d .menu-ppal{
+  margin-block-end: 48px;
+}
+
+.nemium-d header details a{
+  display: block;
+  /* margin-block-end: 16px; */
+  padding-inline: 8px;
+  padding-block: 8px;
+}
+
+.nemium-d header details a:hover{
+  background: #5551FF;
+  color: #fff;
+}
+
+.nemium-d header details #active{
+  background: #5551FF;
+  color: #fff;
+}
+
+.nemium-d header details a:active{
+  background: #5551FF;
+  color: #fff;
+}
+
+.nemium-d header summary{
+  margin-block-end: 16px;
+}
+
+.nemium-d header details a{
+  counter-increment: numeromenu;
+}
+
+.nemium-d header details a::before{
+  content: counter(numeromenu)". ";
+}
+
+.nemium-d details{
+  display: block;
+}
+
+
+@media screen and (min-width: 1366px){
+.nemium-d header {
+
+    inset-inline-start: inherit;
+    inset-inline-end: -208px;
+  }
+
+  .nemium-d blockquote{
+    margin-inline: 100px;
+  }
+  .nemium-d .form{
+    inline-size: 700px;
+  }
+
+  .nemium-d .form input{
+    inline-size: 48%;
+  }
+
+}

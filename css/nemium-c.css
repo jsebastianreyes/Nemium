@@ -22,7 +22,7 @@
 }
 
 .nemium-c .menu-ppal{
-  margin-block-end: 100px;
+  margin-block-end: 48px;
 }
 
 .nemium-c header .title-menu{
@@ -141,6 +141,10 @@ color:var(--color-terciario)
 
 }
 
+.nemium-c .title-menu{
+  display: block;
+}
+
 
 
 @media screen and (min-width: 1366px) {
@@ -169,5 +173,11 @@ color:var(--color-terciario)
 
   .nemium-c .header-content {
   position: relative;
-  inset-block-start: 0px;}
+  inset-block-start: 0px;
+}
+  .nemium-c .menu-ppal{
+    margin-block-end: 110px;
+  }
+
+
 }
